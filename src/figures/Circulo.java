@@ -8,6 +8,14 @@ public class Circulo {
 		this.radi = radi;
 	}
 
+	public int Area(int radi) {
+		return (int) (radi*radi*Math.PI);
+	}
+	
+	public int Perimetro(int radi) {
+		return (int) (2*radi*Math.PI);
+	}
+	
 	public int getRadi() {
 		return radi;
 	}
@@ -15,6 +23,5 @@ public class Circulo {
 	public void setRadi(int radi) {
 		this.radi = radi;
 	}
-
 
 }
